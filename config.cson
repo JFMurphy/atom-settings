@@ -1,0 +1,45 @@
+"*":
+  "atom-beautify":
+    html:
+      indent_size: 2
+  core:
+    disabledPackages: [
+      "emmet"
+    ]
+    telemetryConsent: "no"
+  editor:
+    invisibles:
+      cr: false
+      eol: false
+    scrollPastEnd: true
+    showInvisibles: true
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "a90e94f7-8a5b-4b10-943b-a9aad5a37512"
+  "highlight-selected": {}
+  "linter-ui-default":
+    panelHeight: 69
+  minimap:
+    plugins:
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  "platformio-ide-terminal":
+    core:
+      mapTerminalsTo: "Folder"
+      workingDirectory: "Active File"
+    style:
+      animationSpeed: 2.5
+  welcome:
+    showOnStartup: false
+".basic.html.text":
+  editor:
+    tabLength: 2
+".html.php.text":
+  editor:
+    tabLength: 2
+".html.smarty.text":
+  editor:
+    tabLength: 2
